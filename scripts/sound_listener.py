@@ -11,7 +11,7 @@ def callback(data):
     soundhandle = SoundClient()
 
     rospy.sleep(1)
-    soundhandle.stopAll()
+    #soundhandle.stopAll()
 
     text = data.data
     voice = 'voice_kal_diphone'
